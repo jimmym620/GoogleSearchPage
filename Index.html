@@ -69,13 +69,23 @@
         #searchBox {
             height: 40px;
             width: 500px;
+            border-radius: 20px;
+            border-color: grey;
         }
 
         .underSearchBar {
             margin-top: 2%;
             align-items: center;
             display: flex;
+            justify-content: space-between;
             justify-content: center;
+        }
+        .underSearchBar input{
+            background-color: lightgray;
+            height: 35px;
+            margin: 0 10px 0 10px;
+            border-radius: 5px;
+            border-color: transparent;
         }
 
         footer {
@@ -95,7 +105,7 @@
         .top-footer a{
             margin: 0px;
             padding: 0px;
-            background-color: yellow;
+            color: rgb(124, 124, 124);
         }
         .bottom-footer{
             display: grid;
@@ -107,8 +117,8 @@
             align-content: center;
         }
         .bottom-footer a{
-            padding: 0 1% 0 1%
-            
+            padding: 0 1% 0 1%;
+            color: rgb(124, 124, 124)
         }
         .bottom-footer-left{
             grid-area: leftF;      
@@ -147,7 +157,7 @@
     </div>
     <div class="search">
         <input type=search id="searchBox">
-        <input type=button id="voiceSearch" value="voice">
+        <!-- <input type=button id="voiceSearch" value="voice"> -->
     </div>
     <div class="underSearchBar">
         <input type=button id="googleSearch" value="Foogle Search"></input>
