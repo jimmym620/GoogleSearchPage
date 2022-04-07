@@ -4,23 +4,25 @@
 <head>
     <!-- <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Foogle</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href=""> -->
+    <title>Foogle</title>
     <style>
-        body{
+        body {
             width: 100%;
             height: 100%;
             margin: 0;
             padding: 0;
         }
-        header{
+
+        header {
             top: 0px;
             width: 100%;
             display: grid;
             grid-template-areas: "left middle right";
         }
+
         .header-left {
             grid-area: left;
             display: flex;
@@ -28,6 +30,7 @@
             position: absolute;
             padding: 1%;
         }
+
         .header-right {
             grid-area: right;
             display: flex;
@@ -35,11 +38,12 @@
             position: absolute;
             padding: 1%
         }
-        header a{
+
+        header a {
             padding: 0 10px 0 10px;
         }
 
-        header img{
+        header img {
             height: 100%;
             padding: 0 10px 0 10px;
             /* margin: auto 1% auto 1%; */
@@ -80,7 +84,8 @@
             justify-content: space-between;
             justify-content: center;
         }
-        .underSearchBar input{
+
+        .underSearchBar input {
             background-color: lightgray;
             height: 35px;
             margin: 0 10px 0 10px;
@@ -102,54 +107,60 @@
             bottom: 120px;
             padding: 1% 0 1% 1%
         }
-        .top-footer a{
+
+        .top-footer a {
             margin: 0px;
             padding: 0px;
             color: rgb(124, 124, 124);
         }
-        .bottom-footer{
+
+        .bottom-footer {
             display: grid;
             background-color: #f2f2f2;
             grid-template-columns: 30% 40% 30%;
-            grid-template-areas: "leftF middleF rightF" ;
+            grid-template-areas: "leftF middleF rightF";
             padding: 1%;
             bottom: 0px;
             align-content: center;
         }
-        .bottom-footer a{
+
+        .bottom-footer a {
             padding: 0 1% 0 1%;
             color: rgb(124, 124, 124)
         }
-        .bottom-footer-left{
-            grid-area: leftF;      
+
+        .bottom-footer-left {
+            grid-area: leftF;
         }
-        .bottom-footer-middle{
+
+        .bottom-footer-middle {
             grid-area: middleF;
             display: flex;
             justify-content: center;
         }
-        .bottom-footer-right{
+
+        .bottom-footer-right {
             grid-area: rightF;
             padding: 0 3% 0 3%;
             text-align: right;
         }
-
     </style>
 
 </head>
+
 <body>
     <header>
-            <div class="header-left">
-                <a>About</a>
-                <a>Store</a>
-            </div>
-            <div class="header-right">
-                <a>Gmail</a>
-                <a>Images</a>
-                <img src="Images/apps.png">
-                <img src="Images/account.png">
-            </div>
-       
+        <div class="header-left">
+            <a>About</a>
+            <a>Store</a>
+        </div>
+        <div class="header-right">
+            <a>Gmail</a>
+            <a>Images</a>
+            <img src="Images/apps.png">
+            <img src="Images/account.png">
+        </div>
+
 
     </header>
     <div class="logo">
@@ -168,7 +179,7 @@
         <div class="top-footer">
             <a>United Kingdom</a>
         </div>
-        <div class="bottom-footer"> 
+        <div class="bottom-footer">
             <div class="bottom-footer-left">
                 <a>Advertising</a>
                 <a>Business</a>
